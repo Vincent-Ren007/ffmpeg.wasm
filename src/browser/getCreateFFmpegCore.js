@@ -23,7 +23,7 @@ export const getCreateFFmpegCore = async ({
 }) => {
   if (typeof createFFmpegCore === "undefined") {
     return new Promise((resolve) => {
-      globalThis.importScripts(_corePath);
+      require(_corePath);
       if (typeof createFFmpegCore === "undefined") {
         throw Error(CREATE_FFMPEG_CORE_IS_NOT_DEFINED(coreRemotePath));
       }
