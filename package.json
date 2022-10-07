@@ -1,6 +1,6 @@
 {
   "name": "@ffmpeg/ffmpeg",
-  "version": "10.10.2",
+  "version": "10.10.3",
   "description": "FFmpeg WebAssembly version",
   "main": "src/index.js",
   "types": "src/index.d.ts",
